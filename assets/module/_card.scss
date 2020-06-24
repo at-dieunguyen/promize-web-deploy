@@ -146,6 +146,7 @@
       color: #1abc9c;
     }
     & > h4 {
+      @include pxRem(font-size, 16);
       @include pxRem(margin, 16 0);
       font-family: "Raleway", sans-serif;
     }
